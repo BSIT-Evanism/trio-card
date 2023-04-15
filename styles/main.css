@@ -1,0 +1,88 @@
+html {
+  background-color: hsl(0, 0%, 95%);
+  box-sizing: border-box;
+
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  color: white;
+  font-size: 15px;
+  margin-top: 20vh;
+  flex-wrap: wrap;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+h1 {
+  font-weight: 700;
+  font-family: 'Big Shoulders Display', serif;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card {
+  height: 25em;
+  width: 14em;
+  padding: 3rem 3.5rem;
+  margin: 0;
+}
+
+.card1 {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.card2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card3 {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+button {
+  background-color: hsl(0, 0%, 95%);
+  border: 3px solid hsl(0, 0%, 95%);
+  padding: 10px 20px;
+  border-radius: 5rem;
+  font-family: 'Lexend Deca', sans-serif;
+  margin-top: 7rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+}
+
+.car1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.car2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.car3 {
+  color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+
+}
